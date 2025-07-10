@@ -29,7 +29,7 @@ include 'dbconnect.php';
         <br> <br>
 
         <input type="submit" value="Submit" name="Submit">
-
+        <button><a href="loginform.php">Login</a></button>
         <?php
         if(isset($_POST['Submit'])) {
             $Name = $_POST['Name'];
